@@ -10,7 +10,17 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
-        background-color: ${({ theme }) => theme.color.gallery};
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Inter', sans-serif;
+        transition: background 0.5;
+        background: ${({ theme }) => theme.colors.site.background};
+        color: ${({ theme }) => theme.colors.site.text};
+        font-size: 18px;
+        letter-spacing: 0.05em;
+        word-break: break-word;
+        padding-bottom: 108px;
+
+        @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}) {
+            padding-bottom: 32px;
+        }
     }
-    `;
+`;
