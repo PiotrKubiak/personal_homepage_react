@@ -1,3 +1,5 @@
+// noinspection NonAsciiCharacters
+
 import styled from "styled-components";
 import α from "color-alpha";
 
@@ -20,7 +22,7 @@ export const Tile = styled.li`
   margin: 0;
   background: ${({ theme }) => theme.colors.boxBackground};
   border: 6px solid ${({ theme }) => theme.colors.tile.border};
-  transition: border-color: 0.5s;
+  transition: border-color (0.5)s;
   box-shadow: ${({ theme }) => theme.boxShadow};
   border-radius: ${({ theme }) => theme.borderRadiousSmall};
 
