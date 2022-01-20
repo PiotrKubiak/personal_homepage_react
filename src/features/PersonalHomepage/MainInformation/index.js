@@ -7,9 +7,9 @@ export const MainInformation = () => (
     <Avatar src={profileImage} alt="Piotr Kubiak" />
     <>
       <ThisIs>This is</ThisIs>
-      <Name>Piotr Kubisk</Name>
+      <Name>Piotr Kubiak</Name>
       <Summary>
-        🧑💻I'm passionate about Frontend mainly JavaScript React, and currenty looking for new job.
+        🧑💻I'm passionate about Frontend mainly JavaScript React, and currently looking for new job.
       </Summary>
       <StyledButtonLink href={`mailto:${email}`} title={email}>
         <ButtonIcon />
