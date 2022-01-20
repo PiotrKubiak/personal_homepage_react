@@ -25,7 +25,7 @@ const common = {
     tabletHMax: "1199px",
   },
   boxShadow: "0px -2px 50px rgba(9, 10, 51, 0.02), 0px 16px 58px rgba(9, 10, 51, 0.03)",
-  borderRadiousSmall: "4px",
+  borderRadiusSmall: "4px",
   //Rzeczy które nie zmieniają sie po zmianie theme
 };
 
@@ -50,8 +50,8 @@ export const themeLight = {
       borderHover: colorNames.tropicalBlue,
       header: colorNames.scenceBlue,
     },
-    themeShwitch: {
-      beckground: colorNames.mercury,
+    themeSwitch: {
+      background: colorNames.mercury,
       icon: colorNames.white,
     },
   },
@@ -78,8 +78,8 @@ export const themeDark = {
       borderHover: colorNames.bluemine,
       header: colorNames.white,
     },
-    themeShwitch: {
-      beckground: colorNames.doveGray,
+    themeSwitch: {
+      background: colorNames.doveGray,
       icon: colorNames.mineShaft,
     },
   },
