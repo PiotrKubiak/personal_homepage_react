@@ -12,17 +12,17 @@ export const socials = [
     },
     {
         name: "Facebook",
-        url: "http://https://www.facebook.com/profile.php?id=100006832847515",
+        url: "https://www.facebook.com/profile.php?id=100006832847515",
         Icon: styledIcon(FacebookIcon),
     },
     {
         name: "LinkedIn",
-        url: "http://linkedin.com",
+        url: "https://linkedin.com/in/piotr-kubiak-1927a41bb",
         Icon: styledIcon(LinkedInIcon),
     },
     {
         name: "Instagram",
-        url: "http://https://www.instagram.com/kubiakpiotr86/",
+        url: "https://www.instagram.com/kubiakpiotr86/",
         Icon: styledIcon(InstagramIcon),
     },
 ]
