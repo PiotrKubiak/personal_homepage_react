@@ -24,7 +24,7 @@ export const Avatar = styled.img`
   max-width: 384px;
   border-radius: 50%;
 
-  @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax} {
+  @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}) {
     width: 132px;
   }
 `;
