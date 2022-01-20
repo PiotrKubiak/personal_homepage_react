@@ -2,7 +2,7 @@ import { createSlice } from '@reduxjs/toolkit';
 
 const personalHomepageSlice = createSlice({
   name: "personalHomepage",
-  initialstate: {
+  initialState: {
     repositories: null,
     status: "initial",
   },
@@ -13,7 +13,7 @@ const personalHomepageSlice = createSlice({
     }),
     fetchRepositoriesSuccess: (_, { payload: repositories }) => ({
       status: "success",
-      repositories,
+      repositories: null,
     }),
     fetchRepositoriesError: () => ({
       status: "error",
