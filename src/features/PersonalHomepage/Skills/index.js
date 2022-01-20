@@ -1,10 +1,10 @@
-import { StyledHeader, Item, List, Section, Bullet } from "./styled";
+import { Section, StyledHeader, List, Item, Bullet } from "./styled";
 
-export const Skills = ({ title, skills }) => {
+export const Skills = ({ title, skills }) => (
   <Section>
     <StyledHeader>{title}</StyledHeader>
     <List>
-      {Skills.map(skill => (
+      {skills.map(skill => (
         <Item key={skill}>
           <Bullet />
           {skill}
@@ -12,4 +12,4 @@ export const Skills = ({ title, skills }) => {
       ))}
     </List>
   </Section>
-}
+);

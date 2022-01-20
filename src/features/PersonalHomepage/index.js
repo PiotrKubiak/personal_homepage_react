@@ -3,11 +3,11 @@ import { Container, Icon } from "./styled"
 import { MainInformation } from "./MainInformation";
 import { Portfolio } from "./Portfolio";
 import { Footer } from "./Footer";
-import { ThemeSwitch } from "../../../src/common/ThemeSwitch";
+import { ThemeSwitch } from "../../common/ThemeSwitch";
 import tools from "./icons/tools.png";
 import rocket from "./icons/rocket.png";
 
-export const PersonalHomepage = ({ skills, nextSkills }) => {
+export const PersonalHomepage = ({ skills, nextSkills }) => (
   <Container>
     <ThemeSwitch />
     <MainInformation />
@@ -16,7 +16,7 @@ export const PersonalHomepage = ({ skills, nextSkills }) => {
       <Skills
         title={(
           <>
-            My skillset includes <Icon src={tools} alt="" />
+            My skilled includes <Icon src={tools} alt="" />
           </>
         )}
         skills={skills}
@@ -34,4 +34,4 @@ export const PersonalHomepage = ({ skills, nextSkills }) => {
 
     <Footer />
   </Container>
-}
+);
