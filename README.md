@@ -1,5 +1,16 @@
 # [DEMO](https://piotrkubiak.github.io/personal_homepage_react/)
 
+# Description
+### This is a website that describes my recently acquired skills. There is also information about what I would like to learn in the future. There is a button added to contact me by e-mail. There is also my portfolio with projects and links to my social media.
+
+# Technology in this application
+- HTML
+- CSS (FLEX, GRID, Media queries)
+- JavaScript (React, React - Redux, Redux - Saga)
+- Axios
+- Hook's
+- GitHub
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
