@@ -1,8 +1,10 @@
 export const skills = [
     "HTML",
     "CSS",
-    "CSS - FLEX, GRID, StyledComponents",
+    "CSS - FLEX, GRID",
+    "Styled Components",
     "Responsing web Design",
+    // eslint-disable-next-line no-script-url
     "JavaScript: ES6+",
     "Immutability",
     "React",
