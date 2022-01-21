@@ -35,7 +35,7 @@ export const EmailLink = styled.a`
   transition: color 0.5s;
 
   &:hover {
-    color: ${({ theme }) => theme.colors.primary})
+    color: ${({ theme }) => theme.colors.primary};
   }
 
   @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}) {
