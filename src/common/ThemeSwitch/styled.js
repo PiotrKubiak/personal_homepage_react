@@ -20,6 +20,7 @@ export const Text = styled.span`
   font-size: 12px;
   font-weight: bold;
   margin-right: 12px;
+  text-transform: uppercase;
 
 @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}) {
   display: none;
