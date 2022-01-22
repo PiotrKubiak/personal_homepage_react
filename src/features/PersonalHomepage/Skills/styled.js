@@ -3,11 +3,16 @@ import { SubHeader } from "../SubHeader";
 import { ReactComponent as BulletIcon } from "./icons/bullet.svg";
 
 export const Section = styled.section`
-  background: ${({ theme }) => theme.colors.boxBackgroung};
+  background: ${({ theme }) => theme.colors.boxBackground};
   padding: 32px;
   margin-top: 72px;
   box-shadow: ${({ theme }) => theme.boxShadow};
   border-radius: ${({ theme }) => theme.borderRadiusSmall};
+  border: 6px solid ${({ theme }) => theme.colors.tile.border};
+
+  &:hover {
+    border-color: ${({ theme }) => theme.colors.tile.borderHover}
+  }
 
   @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}) {
     margin-top: 48px;
