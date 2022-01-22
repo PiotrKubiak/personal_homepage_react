@@ -24,7 +24,7 @@ export const Tile = styled.li`
   border: 6px solid ${({ theme }) => theme.colors.tile.border};
   transition: border-color (0.5)s;
   box-shadow: ${({ theme }) => theme.boxShadow};
-  border-radius: ${({ theme }) => theme.borderRadiousSmall};
+  border-radius: ${({ theme }) => theme.borderRadiusSmall};
 
   &:hover {
     border-color: ${({ theme }) => theme.colors.tile.borderHover}
