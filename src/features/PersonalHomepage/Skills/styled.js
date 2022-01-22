@@ -11,7 +11,8 @@ export const Section = styled.section`
   border: 6px solid ${({ theme }) => theme.colors.tile.border};
 
   &:hover {
-    border-color: ${({ theme }) => theme.colors.tile.borderHover}
+    border-color: ${({ theme }) => theme.colors.tile.borderHover};
+    transition: border-color 0.5s;
   }
 
   @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}) {

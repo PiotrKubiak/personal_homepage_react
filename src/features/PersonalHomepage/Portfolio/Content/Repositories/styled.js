@@ -22,12 +22,12 @@ export const Tile = styled.li`
   margin: 0;
   background: ${({ theme }) => theme.colors.boxBackground};
   border: 6px solid ${({ theme }) => theme.colors.tile.border};
-  transition: border-color (0.5)s;
+  transition: border-color 0.5s;
   box-shadow: ${({ theme }) => theme.boxShadow};
   border-radius: ${({ theme }) => theme.borderRadiusSmall};
 
   &:hover {
-    border-color: ${({ theme }) => theme.colors.tile.borderHover}
+    border-color: ${({ theme }) => theme.colors.tile.borderHover};
   }
 
   @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}) {
