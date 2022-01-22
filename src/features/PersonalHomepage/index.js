@@ -1,4 +1,4 @@
-import { Skills } from "./Skills"
+import { Skills, NextSkills } from "./Skills"
 import { Container, Icon } from "./styled"
 import { MainInformation } from "./MainInformation";
 import { Portfolio } from "./Portfolio";
@@ -7,7 +7,7 @@ import { ThemeSwitch } from "../../common/ThemeSwitch";
 import tools from "./icons/tools.png";
 import rocket from "./icons/rocket.png";
 
-export const PersonalHomepage = ({ skills, nextSkills }) => (
+export const PersonalHomepage = (skills, nextSkills) => (
   <Container>
     <ThemeSwitch />
     <MainInformation />
@@ -16,12 +16,12 @@ export const PersonalHomepage = ({ skills, nextSkills }) => (
       <Skills
         title={(
           <>
-            My skilled includes <Icon src={tools} alt="" />
+           My skilled includes <Icon src={tools} alt="" />
           </>
         )}
         skills={skills}
       />
-      <Skills
+      <NextSkills
         title={(
           <>
             What I want to learn next <Icon src={rocket} alt="" />
