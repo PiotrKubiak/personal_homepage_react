@@ -1,9 +1,9 @@
-# [DEMO](https://piotrkubiak.github.io/personal_homepage_react/)
+# 🚀 [DEMO](https://piotrkubiak.github.io/personal_homepage_react/)
 
-# Description
-### This is a website that describes my recently acquired skills. There is also information about what I would like to learn in the future. There is a button added to contact me by e-mail. There is also my portfolio with projects and links to my social media.
+# 📖 Description
+### This is a website that describes my recently acquired skills. There is also information about what I would like to learn in the future. There is a button added to contact me by e-mail. There is also my portfolio with projects and links to my social media. In the upper right part there is a button to change the theme. The website is adaptable to mobile devices📱.
 
-# Technology in this application
+# 🔬 Technology in this application
 - HTML
 - CSS (FLEX, GRID, Media queries)
 - JavaScript (React, React - Redux, Redux - Saga)
