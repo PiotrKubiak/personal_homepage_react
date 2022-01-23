@@ -1,7 +1,6 @@
 import { Section, StyledHeader, List, Item, Bullet } from "./styled";
-import { skills, nextSkills } from "../skillsData";
 
-export const Skills = ({ title }) => (
+export const Skills = ({ title, skills }) => (
   <Section>
     <StyledHeader>{title}</StyledHeader>
     <List>
@@ -14,18 +13,3 @@ export const Skills = ({ title }) => (
     </List>
   </Section>
 );
-
-export const NextSkills = ({ title }) => (
-  <Section>
-    <StyledHeader>{title}</StyledHeader>
-    <List>
-      {nextSkills.map(skill => (
-        <Item key={skill}>
-          <Bullet />
-          {skill}
-        </Item>
-      ))}
-    </List>
-  </Section>
-);
-
