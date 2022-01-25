@@ -11,14 +11,14 @@ export const Repositories = ({ repositories }) => (
             <LinksRow>
               <dt>Demo:</dt>
               <LinksValue>
-                <Link target="_blank" rel="noreferrer" href={homepage}>{homepage}</Link>
+                <Link target="_blank" rel="noreferrer" href={homepage}>Link to this website</Link>
               </LinksValue>
             </LinksRow>
           )}
           <LinksRow>
             <dt>Code:</dt>
             <LinksValue>
-              <Link target="_blank" rel="noreferrer" href={html_url}>{html_url}</Link>
+              <Link target="_blank" rel="noreferrer" href={html_url}>Link to this repository</Link>
             </LinksValue>
           </LinksRow>
         </Links>
